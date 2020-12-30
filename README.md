@@ -9,3 +9,4 @@ Features :
 # Teacher Module
 <h3>1.Teacher Registration</h3>
 <img src="https://user-images.githubusercontent.com/55281255/103367878-28ab8a00-4aec-11eb-91d2-5473858f8d4f.jpg" width="200" />
+<img src="https://user-images.githubusercontent.com/55281255/103368272-272e9180-4aed-11eb-8dcf-f16d30d61dfa.jpg" width="200" />
