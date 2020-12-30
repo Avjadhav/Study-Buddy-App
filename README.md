@@ -7,5 +7,5 @@ Features :
 4. Real-time Notices.
 
 # Teacher Module
-
-<img src="https://user-images.githubusercontent.com/55281255/103366968-ebde9380-4ae9-11eb-9f1d-e234ef5d7ee0.jpg" width="200" />
+<h3>1.Teacher Registration</h3>
+<img src="https://user-images.githubusercontent.com/55281255/103367878-28ab8a00-4aec-11eb-91d2-5473858f8d4f.jpg" width="200" />
