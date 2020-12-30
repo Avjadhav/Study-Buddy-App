@@ -42,7 +42,7 @@
 
 
 <h3>4.Student  Timetable </h3>
-<img src="user-images.githubusercontent.com/55281255/103370534-0f5a0c00-4af3-11eb-9dea-442056b9f7c5.jpg" width="200" />
+<img src="https://user-images.githubusercontent.com/55281255/103370534-0f5a0c00-4af3-11eb-9dea-442056b9f7c5.jpg" width="200" />
 
 <h3>5.Student View document and download document </h3>
 <img src="https://user-images.githubusercontent.com/55281255/103370678-67910e00-4af3-11eb-8e3a-a479af4b20ca.jpg" width="200" />
