@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/updatelayout"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorAccent"
+        android:elevation="5dp"
+        >
+        <Button
+            android:id="@+id/backbtn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_baseline_arrow_back_24"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Profile"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/backbtn"
+            android:layout_centerVertical="true">
+        </TextView>
+
+    </RelativeLayout>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appbar"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@android:color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/image_up"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/profile_image"
+                android:src="@drawable/ic_baseline_person_24"
+                android:layout_margin="10dp"
+                ></ImageView>
+            <EditText
+                android:id="@+id/et_up_2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/image_up"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:drawablePadding="10dp"
+                android:paddingStart="5dp"
+                android:hint="Full Name"
+                android:background="@drawable/cat_buttons"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColor="@android:color/black"
+                android:layout_margin="10dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/tv_up_3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:layout_below="@+id/tv_up_2"
+                android:drawableStart="@drawable/ic_baseline_email_24"
+                android:drawablePadding="10dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/cat_buttons"
+                android:hint="Email"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/tv_up_4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:layout_below="@+id/tv_up_3"
+                android:background="@drawable/cat_buttons"
+                android:drawableStart="@drawable/ic_baseline_work_24"
+                android:drawablePadding="10dp"
+                android:layout_margin="10dp"
+                android:hint="Work"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/et_up_5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingStart="5dp"
+                android:layout_below="@+id/tv_up_4"
+                android:background="@drawable/cat_buttons"
+                android:drawableStart="@drawable/ic_baseline_school_24"
+                android:drawablePadding="10dp"
+                android:layout_margin="10dp"
+                android:hint="College"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"/>
+
+            <Spinner
+                android:id="@+id/spinner_up"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingStart="5dp"
+                android:layout_below="@+id/tv_up_5"
+                android:background="@drawable/cat_buttons"
+                android:layout_margin="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/cancel_Up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cancel"
+                    android:textAllCaps="false"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:background="@android:color/holo_red_dark"/>
+
+                <Button
+                    android:id="@+id/Save_Up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_green_dark"
+                    android:text="Save"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Calculator">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        android:background="#D1D2E8"
+        android:orientation="horizontal"
+        android:elevation="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CGPI To Percentage"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/sem1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Pointer"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:id="@+id/tv_sem1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sem1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <Button
+            android:id="@+id/btn_cc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Convert"
+            android:layout_margin="20dp"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/holo_green_dark"
+            android:textColor="@android:color/white">
+
+        </Button>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

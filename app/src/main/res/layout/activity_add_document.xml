@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddDocument">
+    <RelativeLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorAccent"
+        android:elevation="5dp"
+        >
+        <Button
+            android:id="@+id/backbtn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/ic_baseline_arrow_back_24"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Document"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/backbtn"
+            android:layout_centerVertical="true">
+        </TextView>
+
+    </RelativeLayout>
+
+    <Spinner
+        android:id="@+id/spinner_adddoc"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@drawable/cat_buttons"
+        android:layout_below="@+id/appbar"/>
+    <LinearLayout
+        android:id="@+id/adddocument"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/cat_buttons"
+        android:layout_below="@+id/spinner_adddoc"
+        android:orientation="horizontal"
+        android:elevation="5dp">
+
+        <ImageButton
+            android:id="@+id/adddocbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_baseline_add_to_photos_24"
+            />
+        <TextView
+            android:id="@+id/docname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_senddoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:text="Send"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/adddocument"/>
+
+
+</RelativeLayout>
