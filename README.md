@@ -7,5 +7,5 @@ Features :
 4. Real-time Notices.
 
 # Teacher Module
-
-https://user-images.githubusercontent.com/55281255/103366968-ebde9380-4ae9-11eb-9f1d-e234ef5d7ee0.jpg
+1. Teacher Login
+![Screenshot_2020-12-14-14-23-16-624_com example studybuddy](https://user-images.githubusercontent.com/55281255/103366968-ebde9380-4ae9-11eb-9f1d-e234ef5d7ee0.jpg)
